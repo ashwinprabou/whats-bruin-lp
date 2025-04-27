@@ -71,7 +71,7 @@ const Solution = () => {
 
           <div className="order-1 lg:order-2 relative" data-aos="fade-left">
             <img
-              src="public/community.png"
+              src="/community.png"
               alt="Students collaborating"
               className="rounded-xl shadow-lg w-full h-auto object-cover"
             />

@@ -22,7 +22,7 @@ const Hero = () => {
           <div className="relative" data-aos="fade-up">
             <div className="relative z-10 animate-float">
               <img
-                src="public/aboutss.png"
+                src="/aboutss.png"
                 alt="What's Bruin? Coffee Cup"
                 className="rounded-xl shadow-2xl mx-auto max-w-full"
               />
