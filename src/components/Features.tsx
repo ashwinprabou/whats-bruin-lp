@@ -222,7 +222,14 @@ const Features = () => {
             </div>
           </div>
 
-          <button className="btn-primary mt-12">Explore All Features</button>
+          <button
+            className="btn-primary mt-12"
+            onClick={() =>
+              (window.location.href = "https://github.com/anshulkc/mav")
+            }
+          >
+            Explore All Features
+          </button>
         </div>
       </div>
     </section>

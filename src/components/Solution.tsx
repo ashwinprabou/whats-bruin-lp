@@ -145,8 +145,13 @@ const Solution = () => {
                   Join What's Bruin? today and transform how you network at
                   UCLA.
                 </p>
-                <button className="bg-ucla-gold text-ucla-blue font-bold py-3 px-6 rounded-lg hover:bg-yellow-400 transition duration-300 mt-auto">
-                  Get Early Access
+                <button
+                  className="bg-ucla-gold text-ucla-blue font-bold py-3 px-6 rounded-lg hover:bg-yellow-400 transition duration-300 mt-auto"
+                  onClick={() =>
+                    (window.location.href = "https://github.com/anshulkc/mav")
+                  }
+                >
+                  Check out the GitHub!
                 </button>
               </div>
             </div>
